@@ -65,7 +65,7 @@ public class ViewRcl extends FrameLayout implements Contains.ViewShow{
             @Override
             public void loadeMore() {
                 recyclerView.setLoading(false);
-                Toast.makeText(activity, "end", Toast.LENGTH_SHORT).show();
+                Toast.makeText(activity, getResources().getString(R.string.end), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -90,7 +90,7 @@ public class ViewRcl extends FrameLayout implements Contains.ViewShow{
     private void setToolbar() {
 
         activity.setSupportActionBar(toolbar);
-        activity.setTitle("Jokes");
+        activity.setTitle(getResources().getString(R.string.jokes));
        toolbar.setTitleTextColor(ContextCompat.getColor(getContext(),R.color.white));
 
 

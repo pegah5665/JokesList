@@ -5,9 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.util.AttributeSet;
 
-/**
- * Created by Pegah on 4/23/2018.
- */
+
 
 public class MyRecyclerView extends android.support.v7.widget.RecyclerView {
 

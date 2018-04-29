@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">JokesList</string>
     <string name="jokes">Jokes</string>
+    <string name="end">end</string>
 </resources>
