@@ -10,9 +10,7 @@ import ir.pahmadvand.jokeslist.R;
 import ir.pahmadvand.jokeslist.mvp.model.DataModel;
 
 
-/**
- * Created by Pegah on 4/24/2018.
- */
+
 
 public class MyViewHolder extends RecyclerView.ViewHolder {
 
